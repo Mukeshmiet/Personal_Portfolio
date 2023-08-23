@@ -21,9 +21,10 @@
 
     <div class="container">
       <div class="-container">
-        <div class="left fix-on-page hori-center --flex-1">
+        <d class="left fix-on-page hori-center --flex-1">
           <div class="pict -shadow--2">
             <img src="{% static 'app_home/pic2.jpg' %}" alt="portfolio_pic">
+            <a class="resume" href="#">Resume</a>
           </div>
           <div class="intro -shadow--1">
             <div class="profile-name"><span>Hi! I'm <span style="font-weight: 600;">Mukesh Kumar</span></span>
@@ -107,7 +108,7 @@
               <div class="--effects color-2"><a href="#timeline">&bull; Timeline</a></div>
               <div class="--effects color-3"><a href="#projects">&bull; Projects</a></div>
               <div class="--effects color-4"><a href="#skills">&bull; Skills</a></div>
-              <div class="--effects color-5"><a href="#achiv"></a>&bull; Success</div>
+              <div class="--effects color-5"><a href="#achiv">&bull; Attainment</a></div>
             </div>
           </div>
 
@@ -121,10 +122,10 @@
           <div class="--content-background -shadow--3"></div>
 
           <div class="-hidden-1"></div>
-          <section id="home" class="right-content-animate --position --content-layout">
-            <div class="home-about">
+          <div id="home" class="right-content-animate --position --content-layout">
+            <section class="home-about">
               <div class="head">
-                <h1 class="about -title">About Me</h1>
+                <h1 class="about -title --title-color-1">About Me</h1>
               </div>
               <div class="about-content">
                 <p>
@@ -135,14 +136,14 @@
                   the challenges and opportunities that lie ahead on this exciting path of growth and exploration.
                 </p>
               </div>
-            </div>
+            </section>
             <div class="content-svg">
               <img src="{% static 'app_home/dogboy.svg' %}" alt="relaxing_svg">
             </div>
-            <div id="timeline" class="--padding-top" >
+            <section id="timeline" class="--padding-top">
               <img class="seagulls" src="{% static 'app_home/seagulls.svg' %}" alt="seagulls_svg">
               <div class="head">
-                <h1 class="-title">Timeline</h1>
+                <h1 class="-title --title-color-2">Timeline</h1>
               </div>
               <div class="--grid-5">
 
@@ -154,9 +155,11 @@
                 <div class="--detail">
                   <span>
                     Python Developer intern @ 8om internet
-                    <a href="https://drive.google.com/file/d/1JmBNb7kMi-EjI8xD4x6V_5P9-QP6xUMw/view?usp=drive_link" target="_blank">
-                      <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 256 256">
-                        <path d="M137.54,186.36a8,8,0,0,1,0,11.31l-9.94,10A56,56,0,0,1,48.38,128.4L72.5,104.28A56,56,0,0,1,149.31,102a8,8,0,1,1-10.64,12,40,40,0,0,0-54.85,1.63L59.7,139.72a40,40,0,0,0,56.58,56.58l9.94-9.94A8,8,0,0,1,137.54,186.36Zm70.08-138a56.08,56.08,0,0,0-79.22,0l-9.94,9.95a8,8,0,0,0,11.32,11.31l9.94-9.94a40,40,0,0,1,56.58,56.58L172.18,140.4A40,40,0,0,1,117.33,142,8,8,0,1,0,106.69,154a56,56,0,0,0,76.81-2.26l24.12-24.12A56.08,56.08,0,0,0,207.62,48.38Z">
+                    <a href="https://drive.google.com/file/d/1JmBNb7kMi-EjI8xD4x6V_5P9-QP6xUMw/view?usp=drive_link"
+                      target="_blank">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                        <path
+                          d="M137.54,186.36a8,8,0,0,1,0,11.31l-9.94,10A56,56,0,0,1,48.38,128.4L72.5,104.28A56,56,0,0,1,149.31,102a8,8,0,1,1-10.64,12,40,40,0,0,0-54.85,1.63L59.7,139.72a40,40,0,0,0,56.58,56.58l9.94-9.94A8,8,0,0,1,137.54,186.36Zm70.08-138a56.08,56.08,0,0,0-79.22,0l-9.94,9.95a8,8,0,0,0,11.32,11.31l9.94-9.94a40,40,0,0,1,56.58,56.58L172.18,140.4A40,40,0,0,1,117.33,142,8,8,0,1,0,106.69,154a56,56,0,0,0,76.81-2.26l24.12-24.12A56.08,56.08,0,0,0,207.62,48.38Z">
                         </path>
                       </svg>
                     </a>
@@ -172,13 +175,15 @@
                   </ul>
                 </div>
                 <div class="--detail"><span>Python Consultant @ Lyxel&flamingo
-                  <a href="https://drive.google.com/file/d/1brUBOUwaguXP_Be5G-hay-KQVfpC2ByY/view?usp=sharing" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 256 256">
-                      <path d="M137.54,186.36a8,8,0,0,1,0,11.31l-9.94,10A56,56,0,0,1,48.38,128.4L72.5,104.28A56,56,0,0,1,149.31,102a8,8,0,1,1-10.64,12,40,40,0,0,0-54.85,1.63L59.7,139.72a40,40,0,0,0,56.58,56.58l9.94-9.94A8,8,0,0,1,137.54,186.36Zm70.08-138a56.08,56.08,0,0,0-79.22,0l-9.94,9.95a8,8,0,0,0,11.32,11.31l9.94-9.94a40,40,0,0,1,56.58,56.58L172.18,140.4A40,40,0,0,1,117.33,142,8,8,0,1,0,106.69,154a56,56,0,0,0,76.81-2.26l24.12-24.12A56.08,56.08,0,0,0,207.62,48.38Z">
-                      </path>
-                    </svg>
-                  </a>
-                </span>
+                    <a href="https://drive.google.com/file/d/1brUBOUwaguXP_Be5G-hay-KQVfpC2ByY/view?usp=sharing"
+                      target="_blank">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                        <path
+                          d="M137.54,186.36a8,8,0,0,1,0,11.31l-9.94,10A56,56,0,0,1,48.38,128.4L72.5,104.28A56,56,0,0,1,149.31,102a8,8,0,1,1-10.64,12,40,40,0,0,0-54.85,1.63L59.7,139.72a40,40,0,0,0,56.58,56.58l9.94-9.94A8,8,0,0,1,137.54,186.36Zm70.08-138a56.08,56.08,0,0,0-79.22,0l-9.94,9.95a8,8,0,0,0,11.32,11.31l9.94-9.94a40,40,0,0,1,56.58,56.58L172.18,140.4A40,40,0,0,1,117.33,142,8,8,0,1,0,106.69,154a56,56,0,0,0,76.81-2.26l24.12-24.12A56.08,56.08,0,0,0,207.62,48.38Z">
+                        </path>
+                      </svg>
+                    </a>
+                  </span>
                   <ul>
                     <li>- Gurgaon - Consultant | 3mos</li>
                   </ul>
@@ -190,13 +195,15 @@
                   </ul>
                 </div>
                 <div class="--detail"><span>Online Internship @ Remark skill
-                  <a href="https://drive.google.com/file/d/1X0i7wMOSQQ8wh4SoqBaUgHAGlV2rLhbx/view?usp=sharing" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 256 256">
-                      <path d="M137.54,186.36a8,8,0,0,1,0,11.31l-9.94,10A56,56,0,0,1,48.38,128.4L72.5,104.28A56,56,0,0,1,149.31,102a8,8,0,1,1-10.64,12,40,40,0,0,0-54.85,1.63L59.7,139.72a40,40,0,0,0,56.58,56.58l9.94-9.94A8,8,0,0,1,137.54,186.36Zm70.08-138a56.08,56.08,0,0,0-79.22,0l-9.94,9.95a8,8,0,0,0,11.32,11.31l9.94-9.94a40,40,0,0,1,56.58,56.58L172.18,140.4A40,40,0,0,1,117.33,142,8,8,0,1,0,106.69,154a56,56,0,0,0,76.81-2.26l24.12-24.12A56.08,56.08,0,0,0,207.62,48.38Z">
-                      </path>
-                    </svg>
-                  </a>
-                </span>
+                    <a href="https://drive.google.com/file/d/1X0i7wMOSQQ8wh4SoqBaUgHAGlV2rLhbx/view?usp=sharing"
+                      target="_blank">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                        <path
+                          d="M137.54,186.36a8,8,0,0,1,0,11.31l-9.94,10A56,56,0,0,1,48.38,128.4L72.5,104.28A56,56,0,0,1,149.31,102a8,8,0,1,1-10.64,12,40,40,0,0,0-54.85,1.63L59.7,139.72a40,40,0,0,0,56.58,56.58l9.94-9.94A8,8,0,0,1,137.54,186.36Zm70.08-138a56.08,56.08,0,0,0-79.22,0l-9.94,9.95a8,8,0,0,0,11.32,11.31l9.94-9.94a40,40,0,0,1,56.58,56.58L172.18,140.4A40,40,0,0,1,117.33,142,8,8,0,1,0,106.69,154a56,56,0,0,0,76.81-2.26l24.12-24.12A56.08,56.08,0,0,0,207.62,48.38Z">
+                        </path>
+                      </svg>
+                    </a>
+                  </span>
                   <ul>
                     <li>- Remote Python programming Core & Advance | 2mos</li>
                   </ul>
@@ -204,23 +211,27 @@
 
                 <div class="--year">2022</div>
                 <div class="--detail"><span>Science Exhibition Award 2022 by Vigyan Prasar, Govt. of India
-                  <a href="https://drive.google.com/file/d/1uBpvnaUtOWB6Esvw_YwG2y-XJtKJA0t3/view?usp=sharing" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 256 256">
-                      <path d="M137.54,186.36a8,8,0,0,1,0,11.31l-9.94,10A56,56,0,0,1,48.38,128.4L72.5,104.28A56,56,0,0,1,149.31,102a8,8,0,1,1-10.64,12,40,40,0,0,0-54.85,1.63L59.7,139.72a40,40,0,0,0,56.58,56.58l9.94-9.94A8,8,0,0,1,137.54,186.36Zm70.08-138a56.08,56.08,0,0,0-79.22,0l-9.94,9.95a8,8,0,0,0,11.32,11.31l9.94-9.94a40,40,0,0,1,56.58,56.58L172.18,140.4A40,40,0,0,1,117.33,142,8,8,0,1,0,106.69,154a56,56,0,0,0,76.81-2.26l24.12-24.12A56.08,56.08,0,0,0,207.62,48.38Z">
-                      </path>
-                    </svg>
-                  </a>
-                </span></div>
+                    <a href="https://drive.google.com/file/d/1uBpvnaUtOWB6Esvw_YwG2y-XJtKJA0t3/view?usp=sharing"
+                      target="_blank">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                        <path
+                          d="M137.54,186.36a8,8,0,0,1,0,11.31l-9.94,10A56,56,0,0,1,48.38,128.4L72.5,104.28A56,56,0,0,1,149.31,102a8,8,0,1,1-10.64,12,40,40,0,0,0-54.85,1.63L59.7,139.72a40,40,0,0,0,56.58,56.58l9.94-9.94A8,8,0,0,1,137.54,186.36Zm70.08-138a56.08,56.08,0,0,0-79.22,0l-9.94,9.95a8,8,0,0,0,11.32,11.31l9.94-9.94a40,40,0,0,1,56.58,56.58L172.18,140.4A40,40,0,0,1,117.33,142,8,8,0,1,0,106.69,154a56,56,0,0,0,76.81-2.26l24.12-24.12A56.08,56.08,0,0,0,207.62,48.38Z">
+                        </path>
+                      </svg>
+                    </a>
+                  </span></div>
 
                 <div class="--year">2021</div>
                 <div class="--detail"><span>DRDO Contest 2021 Certificate
-                  <a href="https://drive.google.com/file/d/1Q94IfotQAzNJPcwt0UW5S5euImvoLYnk/view?usp=sharing" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 256 256">
-                      <path d="M137.54,186.36a8,8,0,0,1,0,11.31l-9.94,10A56,56,0,0,1,48.38,128.4L72.5,104.28A56,56,0,0,1,149.31,102a8,8,0,1,1-10.64,12,40,40,0,0,0-54.85,1.63L59.7,139.72a40,40,0,0,0,56.58,56.58l9.94-9.94A8,8,0,0,1,137.54,186.36Zm70.08-138a56.08,56.08,0,0,0-79.22,0l-9.94,9.95a8,8,0,0,0,11.32,11.31l9.94-9.94a40,40,0,0,1,56.58,56.58L172.18,140.4A40,40,0,0,1,117.33,142,8,8,0,1,0,106.69,154a56,56,0,0,0,76.81-2.26l24.12-24.12A56.08,56.08,0,0,0,207.62,48.38Z">
-                      </path>
-                    </svg>
-                  </a>
-                </span>
+                    <a href="https://drive.google.com/file/d/1Q94IfotQAzNJPcwt0UW5S5euImvoLYnk/view?usp=sharing"
+                      target="_blank">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                        <path
+                          d="M137.54,186.36a8,8,0,0,1,0,11.31l-9.94,10A56,56,0,0,1,48.38,128.4L72.5,104.28A56,56,0,0,1,149.31,102a8,8,0,1,1-10.64,12,40,40,0,0,0-54.85,1.63L59.7,139.72a40,40,0,0,0,56.58,56.58l9.94-9.94A8,8,0,0,1,137.54,186.36Zm70.08-138a56.08,56.08,0,0,0-79.22,0l-9.94,9.95a8,8,0,0,0,11.32,11.31l9.94-9.94a40,40,0,0,1,56.58,56.58L172.18,140.4A40,40,0,0,1,117.33,142,8,8,0,1,0,106.69,154a56,56,0,0,0,76.81-2.26l24.12-24.12A56.08,56.08,0,0,0,207.62,48.38Z">
+                        </path>
+                      </svg>
+                    </a>
+                  </span>
                   <ul>
                     <li>- Got 3<sup>rd</sup> position in Short Animation Film Design and Digital Wallpaper Design.</li>
                   </ul>
@@ -228,45 +239,53 @@
 
                 <div class="--year">2021</div>
                 <div class="--detail"><span>MTA: Introduction to Programming Using Python, Issued by Microsoft
-                  <a href="https://drive.google.com/file/d/19b_KDy-ZfqgEfXVJBIHRX_Dyj7iCRbQ1/view?usp=sharing" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 256 256">
-                      <path d="M137.54,186.36a8,8,0,0,1,0,11.31l-9.94,10A56,56,0,0,1,48.38,128.4L72.5,104.28A56,56,0,0,1,149.31,102a8,8,0,1,1-10.64,12,40,40,0,0,0-54.85,1.63L59.7,139.72a40,40,0,0,0,56.58,56.58l9.94-9.94A8,8,0,0,1,137.54,186.36Zm70.08-138a56.08,56.08,0,0,0-79.22,0l-9.94,9.95a8,8,0,0,0,11.32,11.31l9.94-9.94a40,40,0,0,1,56.58,56.58L172.18,140.4A40,40,0,0,1,117.33,142,8,8,0,1,0,106.69,154a56,56,0,0,0,76.81-2.26l24.12-24.12A56.08,56.08,0,0,0,207.62,48.38Z">
-                      </path>
-                    </svg>
-                  </a>
-                </span>
+                    <a href="https://drive.google.com/file/d/19b_KDy-ZfqgEfXVJBIHRX_Dyj7iCRbQ1/view?usp=sharing"
+                      target="_blank">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                        <path
+                          d="M137.54,186.36a8,8,0,0,1,0,11.31l-9.94,10A56,56,0,0,1,48.38,128.4L72.5,104.28A56,56,0,0,1,149.31,102a8,8,0,1,1-10.64,12,40,40,0,0,0-54.85,1.63L59.7,139.72a40,40,0,0,0,56.58,56.58l9.94-9.94A8,8,0,0,1,137.54,186.36Zm70.08-138a56.08,56.08,0,0,0-79.22,0l-9.94,9.95a8,8,0,0,0,11.32,11.31l9.94-9.94a40,40,0,0,1,56.58,56.58L172.18,140.4A40,40,0,0,1,117.33,142,8,8,0,1,0,106.69,154a56,56,0,0,0,76.81-2.26l24.12-24.12A56.08,56.08,0,0,0,207.62,48.38Z">
+                        </path>
+                      </svg>
+                    </a>
+                  </span>
                 </div>
 
                 <div class="--year">2020</div>
                 <div class="--detail"><span>Certificate Python Programming Issued by ICT Academy, IIT Kanpur
-                  <a href="https://drive.google.com/file/d/1hH9D5o8Y3XKc0PP7gP9BPHhqGYbzIJHh/view?usp=sharing" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 256 256">
-                      <path d="M137.54,186.36a8,8,0,0,1,0,11.31l-9.94,10A56,56,0,0,1,48.38,128.4L72.5,104.28A56,56,0,0,1,149.31,102a8,8,0,1,1-10.64,12,40,40,0,0,0-54.85,1.63L59.7,139.72a40,40,0,0,0,56.58,56.58l9.94-9.94A8,8,0,0,1,137.54,186.36Zm70.08-138a56.08,56.08,0,0,0-79.22,0l-9.94,9.95a8,8,0,0,0,11.32,11.31l9.94-9.94a40,40,0,0,1,56.58,56.58L172.18,140.4A40,40,0,0,1,117.33,142,8,8,0,1,0,106.69,154a56,56,0,0,0,76.81-2.26l24.12-24.12A56.08,56.08,0,0,0,207.62,48.38Z">
-                      </path>
-                    </svg>
-                  </a>
-                </span>
+                    <a href="https://drive.google.com/file/d/1hH9D5o8Y3XKc0PP7gP9BPHhqGYbzIJHh/view?usp=sharing"
+                      target="_blank">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                        <path
+                          d="M137.54,186.36a8,8,0,0,1,0,11.31l-9.94,10A56,56,0,0,1,48.38,128.4L72.5,104.28A56,56,0,0,1,149.31,102a8,8,0,1,1-10.64,12,40,40,0,0,0-54.85,1.63L59.7,139.72a40,40,0,0,0,56.58,56.58l9.94-9.94A8,8,0,0,1,137.54,186.36Zm70.08-138a56.08,56.08,0,0,0-79.22,0l-9.94,9.95a8,8,0,0,0,11.32,11.31l9.94-9.94a40,40,0,0,1,56.58,56.58L172.18,140.4A40,40,0,0,1,117.33,142,8,8,0,1,0,106.69,154a56,56,0,0,0,76.81-2.26l24.12-24.12A56.08,56.08,0,0,0,207.62,48.38Z">
+                        </path>
+                      </svg>
+                    </a>
+                  </span>
                 </div>
 
                 <div class="--year">2018</div>
                 <div class="--detail"><span>Certificate of merit 1<sup>st</sup> year of B.Tech
-                  <a href="https://drive.google.com/file/d/1O7T24q6gSP9oZ__sFi-dbBrBGrImnnVo/view?usp=sharing" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 256 256">
-                      <path d="M137.54,186.36a8,8,0,0,1,0,11.31l-9.94,10A56,56,0,0,1,48.38,128.4L72.5,104.28A56,56,0,0,1,149.31,102a8,8,0,1,1-10.64,12,40,40,0,0,0-54.85,1.63L59.7,139.72a40,40,0,0,0,56.58,56.58l9.94-9.94A8,8,0,0,1,137.54,186.36Zm70.08-138a56.08,56.08,0,0,0-79.22,0l-9.94,9.95a8,8,0,0,0,11.32,11.31l9.94-9.94a40,40,0,0,1,56.58,56.58L172.18,140.4A40,40,0,0,1,117.33,142,8,8,0,1,0,106.69,154a56,56,0,0,0,76.81-2.26l24.12-24.12A56.08,56.08,0,0,0,207.62,48.38Z">
-                      </path>
-                    </svg>
-                  </a>
-                </span></div>
+                    <a href="https://drive.google.com/file/d/1O7T24q6gSP9oZ__sFi-dbBrBGrImnnVo/view?usp=sharing"
+                      target="_blank">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                        <path
+                          d="M137.54,186.36a8,8,0,0,1,0,11.31l-9.94,10A56,56,0,0,1,48.38,128.4L72.5,104.28A56,56,0,0,1,149.31,102a8,8,0,1,1-10.64,12,40,40,0,0,0-54.85,1.63L59.7,139.72a40,40,0,0,0,56.58,56.58l9.94-9.94A8,8,0,0,1,137.54,186.36Zm70.08-138a56.08,56.08,0,0,0-79.22,0l-9.94,9.95a8,8,0,0,0,11.32,11.31l9.94-9.94a40,40,0,0,1,56.58,56.58L172.18,140.4A40,40,0,0,1,117.33,142,8,8,0,1,0,106.69,154a56,56,0,0,0,76.81-2.26l24.12-24.12A56.08,56.08,0,0,0,207.62,48.38Z">
+                        </path>
+                      </svg>
+                    </a>
+                  </span></div>
 
                 <div class="--year">2018-22</div>
                 <div class="--detail"><span>B.Tech (Mechanical Engineering) (Got 81.70%)
-                  <a href="https://drive.google.com/file/d/1FYBp2eeSlEBEXi7SZb0oaAxVBC2C_wHZ/view?usp=sharing" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 256 256">
-                      <path d="M137.54,186.36a8,8,0,0,1,0,11.31l-9.94,10A56,56,0,0,1,48.38,128.4L72.5,104.28A56,56,0,0,1,149.31,102a8,8,0,1,1-10.64,12,40,40,0,0,0-54.85,1.63L59.7,139.72a40,40,0,0,0,56.58,56.58l9.94-9.94A8,8,0,0,1,137.54,186.36Zm70.08-138a56.08,56.08,0,0,0-79.22,0l-9.94,9.95a8,8,0,0,0,11.32,11.31l9.94-9.94a40,40,0,0,1,56.58,56.58L172.18,140.4A40,40,0,0,1,117.33,142,8,8,0,1,0,106.69,154a56,56,0,0,0,76.81-2.26l24.12-24.12A56.08,56.08,0,0,0,207.62,48.38Z">
-                      </path>
-                    </svg>
-                  </a>
-                </span>
+                    <a href="https://drive.google.com/file/d/1FYBp2eeSlEBEXi7SZb0oaAxVBC2C_wHZ/view?usp=sharing"
+                      target="_blank">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                        <path
+                          d="M137.54,186.36a8,8,0,0,1,0,11.31l-9.94,10A56,56,0,0,1,48.38,128.4L72.5,104.28A56,56,0,0,1,149.31,102a8,8,0,1,1-10.64,12,40,40,0,0,0-54.85,1.63L59.7,139.72a40,40,0,0,0,56.58,56.58l9.94-9.94A8,8,0,0,1,137.54,186.36Zm70.08-138a56.08,56.08,0,0,0-79.22,0l-9.94,9.95a8,8,0,0,0,11.32,11.31l9.94-9.94a40,40,0,0,1,56.58,56.58L172.18,140.4A40,40,0,0,1,117.33,142,8,8,0,1,0,106.69,154a56,56,0,0,0,76.81-2.26l24.12-24.12A56.08,56.08,0,0,0,207.62,48.38Z">
+                        </path>
+                      </svg>
+                    </a>
+                  </span>
                   <ul>
                     <li>- Meerut Institute of Engineering and Technology, Meerut</li>
                   </ul>
@@ -274,13 +293,15 @@
 
                 <div class="--year">2016-17</div>
                 <div class="--detail"><span>Senior Secondary School
-                  <a href="https://drive.google.com/file/d/1HKspoCT7KjnfQZbn0pYobGn5eJgUA0T0/view?usp=sharing" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 256 256">
-                      <path d="M137.54,186.36a8,8,0,0,1,0,11.31l-9.94,10A56,56,0,0,1,48.38,128.4L72.5,104.28A56,56,0,0,1,149.31,102a8,8,0,1,1-10.64,12,40,40,0,0,0-54.85,1.63L59.7,139.72a40,40,0,0,0,56.58,56.58l9.94-9.94A8,8,0,0,1,137.54,186.36Zm70.08-138a56.08,56.08,0,0,0-79.22,0l-9.94,9.95a8,8,0,0,0,11.32,11.31l9.94-9.94a40,40,0,0,1,56.58,56.58L172.18,140.4A40,40,0,0,1,117.33,142,8,8,0,1,0,106.69,154a56,56,0,0,0,76.81-2.26l24.12-24.12A56.08,56.08,0,0,0,207.62,48.38Z">
-                      </path>
-                    </svg>
-                  </a>
-                </span>
+                    <a href="https://drive.google.com/file/d/1HKspoCT7KjnfQZbn0pYobGn5eJgUA0T0/view?usp=sharing"
+                      target="_blank">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                        <path
+                          d="M137.54,186.36a8,8,0,0,1,0,11.31l-9.94,10A56,56,0,0,1,48.38,128.4L72.5,104.28A56,56,0,0,1,149.31,102a8,8,0,1,1-10.64,12,40,40,0,0,0-54.85,1.63L59.7,139.72a40,40,0,0,0,56.58,56.58l9.94-9.94A8,8,0,0,1,137.54,186.36Zm70.08-138a56.08,56.08,0,0,0-79.22,0l-9.94,9.95a8,8,0,0,0,11.32,11.31l9.94-9.94a40,40,0,0,1,56.58,56.58L172.18,140.4A40,40,0,0,1,117.33,142,8,8,0,1,0,106.69,154a56,56,0,0,0,76.81-2.26l24.12-24.12A56.08,56.08,0,0,0,207.62,48.38Z">
+                        </path>
+                      </svg>
+                    </a>
+                  </span>
                   <ul>
                     <li>- Karan Public School, Meerut (UP) </li>
                   </ul>
@@ -288,13 +309,15 @@
 
                 <div class="--year">2014-15</div>
                 <div class="--detail"><span>Secondary School
-                  <a href="https://drive.google.com/file/d/16ZUbeBXqtC7dtYodCuJ5H_X-oSkLiDeT/view?usp=sharing" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 256 256">
-                      <path d="M137.54,186.36a8,8,0,0,1,0,11.31l-9.94,10A56,56,0,0,1,48.38,128.4L72.5,104.28A56,56,0,0,1,149.31,102a8,8,0,1,1-10.64,12,40,40,0,0,0-54.85,1.63L59.7,139.72a40,40,0,0,0,56.58,56.58l9.94-9.94A8,8,0,0,1,137.54,186.36Zm70.08-138a56.08,56.08,0,0,0-79.22,0l-9.94,9.95a8,8,0,0,0,11.32,11.31l9.94-9.94a40,40,0,0,1,56.58,56.58L172.18,140.4A40,40,0,0,1,117.33,142,8,8,0,1,0,106.69,154a56,56,0,0,0,76.81-2.26l24.12-24.12A56.08,56.08,0,0,0,207.62,48.38Z">
-                      </path>
-                    </svg>
-                  </a>
-                </span>
+                    <a href="https://drive.google.com/file/d/16ZUbeBXqtC7dtYodCuJ5H_X-oSkLiDeT/view?usp=sharing"
+                      target="_blank">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                        <path
+                          d="M137.54,186.36a8,8,0,0,1,0,11.31l-9.94,10A56,56,0,0,1,48.38,128.4L72.5,104.28A56,56,0,0,1,149.31,102a8,8,0,1,1-10.64,12,40,40,0,0,0-54.85,1.63L59.7,139.72a40,40,0,0,0,56.58,56.58l9.94-9.94A8,8,0,0,1,137.54,186.36Zm70.08-138a56.08,56.08,0,0,0-79.22,0l-9.94,9.95a8,8,0,0,0,11.32,11.31l9.94-9.94a40,40,0,0,1,56.58,56.58L172.18,140.4A40,40,0,0,1,117.33,142,8,8,0,1,0,106.69,154a56,56,0,0,0,76.81-2.26l24.12-24.12A56.08,56.08,0,0,0,207.62,48.38Z">
+                        </path>
+                      </svg>
+                    </a>
+                  </span>
                   <ul>
                     <li>- Karan Public School, Meerut (UP) </li>
                   </ul>
@@ -317,21 +340,236 @@
 
               </div>
               <img class="sailboat" src="{% static 'app_home/sailboat.svg' %}" alt="sailboat_svg">
-            </div>
-            <div class="home-about">
+            </section>
+            <section id="projects" class="project section-gap">
               <div class="head">
-                <h1 class="about-title">About Me</h1>
+                <h1 class="-title --title-color-3">Projects</h1>
               </div>
-              <div class="about-content">
-                <p>
-                  I am Mukesh Kumar, a B.Tech graduate with a fervent passion for Python development and a flair for web
-                  design. My aim is to channel my curiosity and determination into creating impactful solutions that
-                  showcase the potential of programming and design in the modern digital landscape. I look forward to
-                  the challenges and opportunities that lie ahead on this exciting path of growth and exploration.
-                </p>
+              <div class="--cards">
+                <div class="--card-project --font-1 -shadow--5">
+                  <div class="--cards-head">
+                    <h2 class="-title-2 --subtitle-color-1">
+                      <span>1. mitras3d.com
+                        <a href="https://www.mitras3d.com" target="_blank">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                            <path
+                              d="M137.54,186.36a8,8,0,0,1,0,11.31l-9.94,10A56,56,0,0,1,48.38,128.4L72.5,104.28A56,56,0,0,1,149.31,102a8,8,0,1,1-10.64,12,40,40,0,0,0-54.85,1.63L59.7,139.72a40,40,0,0,0,56.58,56.58l9.94-9.94A8,8,0,0,1,137.54,186.36Zm70.08-138a56.08,56.08,0,0,0-79.22,0l-9.94,9.95a8,8,0,0,0,11.32,11.31l9.94-9.94a40,40,0,0,1,56.58,56.58L172.18,140.4A40,40,0,0,1,117.33,142,8,8,0,1,0,106.69,154a56,56,0,0,0,76.81-2.26l24.12-24.12A56.08,56.08,0,0,0,207.62,48.38Z">
+                            </path>
+                          </svg>
+                        </a></span>
+                    </h2>
+                  </div>
+                  <div>
+                    <ul class="--card-content">
+                      <li>Developed a fully functional website, www.mitras3d.com, using HTML, CSS, and JavaScript for
+                        the purpose of learning and skill improvement in front-end web development.</li>
+                      <li>Hosted the website on GitHub to showcase the project and skills to potential employers and
+                        collaborators.</li>
+                      <li>Ensured responsive design, making the website look and work well across various devices and
+                        screen sizes.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="--card-project --font-1 -shadow--6">
+                  <div class="--cards-head">
+                    <h2 class="-title-2 --subtitle-color-2">
+                      <span>2. Number in my mind game
+                        <a href="https://mukeshmiet.github.io/Number_in_my_Mind/" target="_blank">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                            <path
+                              d="M137.54,186.36a8,8,0,0,1,0,11.31l-9.94,10A56,56,0,0,1,48.38,128.4L72.5,104.28A56,56,0,0,1,149.31,102a8,8,0,1,1-10.64,12,40,40,0,0,0-54.85,1.63L59.7,139.72a40,40,0,0,0,56.58,56.58l9.94-9.94A8,8,0,0,1,137.54,186.36Zm70.08-138a56.08,56.08,0,0,0-79.22,0l-9.94,9.95a8,8,0,0,0,11.32,11.31l9.94-9.94a40,40,0,0,1,56.58,56.58L172.18,140.4A40,40,0,0,1,117.33,142,8,8,0,1,0,106.69,154a56,56,0,0,0,76.81-2.26l24.12-24.12A56.08,56.08,0,0,0,207.62,48.38Z">
+                            </path>
+                          </svg>
+                        </a></span>
+                    </h2>
+                  </div>
+                  <div>
+                    <ul class="--card-content">
+                      <li>Created an interactive number guessing game using JavaScript, aimed at learning ES6 concepts.
+                      </li>
+                      <li>Practiced JavaScript DOM manipulation for dynamic webpage updates as the game unfolds.</li>
+                      <li>Developed effective functions to drive core game mechanics, demonstrating modular code design.
+                      </li>
+                      <li>Enhanced user experience with real-time feedback on guesses and an intuitive interface.</li>
+                      <li>Applied modern JavaScript syntax, making use of ES6 features for efficient code
+                        implementation.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="--card-project --font-1 -shadow--7">
+                  <div class="--cards-head">
+                    <h2 class="-title-2 --subtitle-color-3">
+                      <span>3. mybanking.fun
+                        <a href="https://mukeshmiet.github.io/mybanking.fun/" target="_blank">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                            <path
+                              d="M137.54,186.36a8,8,0,0,1,0,11.31l-9.94,10A56,56,0,0,1,48.38,128.4L72.5,104.28A56,56,0,0,1,149.31,102a8,8,0,1,1-10.64,12,40,40,0,0,0-54.85,1.63L59.7,139.72a40,40,0,0,0,56.58,56.58l9.94-9.94A8,8,0,0,1,137.54,186.36Zm70.08-138a56.08,56.08,0,0,0-79.22,0l-9.94,9.95a8,8,0,0,0,11.32,11.31l9.94-9.94a40,40,0,0,1,56.58,56.58L172.18,140.4A40,40,0,0,1,117.33,142,8,8,0,1,0,106.69,154a56,56,0,0,0,76.81-2.26l24.12-24.12A56.08,56.08,0,0,0,207.62,48.38Z">
+                            </path>
+                          </svg>
+                        </a></span>
+                    </h2>
+                  </div>
+                  <div>
+                    <ul class="--card-content">
+                      <li>Developed "mybanking.fun," a JavaScript-based banking web app designed to facilitate
+                        transaction management across various accounts.</li>
+                      <li>Gained practical experience in handling financial data, processing transactions, and
+                        maintaining account balances within the web app.</li>
+                      <li>The project served as an effective learning tool to understand data manipulation concepts and
+                        strengthen skills related to managing integer values.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="--card-project --font-1 -shadow--8">
+                  <div class="--cards-head">
+                    <h2 class="-title-2 --subtitle-color-4">
+                      <span>4. Get connected
+                        <a href="#" target="_blank">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                            <path
+                              d="M137.54,186.36a8,8,0,0,1,0,11.31l-9.94,10A56,56,0,0,1,48.38,128.4L72.5,104.28A56,56,0,0,1,149.31,102a8,8,0,1,1-10.64,12,40,40,0,0,0-54.85,1.63L59.7,139.72a40,40,0,0,0,56.58,56.58l9.94-9.94A8,8,0,0,1,137.54,186.36Zm70.08-138a56.08,56.08,0,0,0-79.22,0l-9.94,9.95a8,8,0,0,0,11.32,11.31l9.94-9.94a40,40,0,0,1,56.58,56.58L172.18,140.4A40,40,0,0,1,117.33,142,8,8,0,1,0,106.69,154a56,56,0,0,0,76.81-2.26l24.12-24.12A56.08,56.08,0,0,0,207.62,48.38Z">
+                            </path>
+                          </svg>
+                        </a></span>
+                    </h2>
+                  </div>
+                  <div>
+                    <ul class="--card-content">
+                      <li>Designed and developed the "Get connected" email messaging web app using the Python Django
+                        framework.</li>
+                      <li>Gained practical experience in working with Django's model-view-template (MVT) architecture,
+                        routing, and database integration.</li>
+                      <li>The project contributed to understanding various aspects of web app development, such as user
+                        authentication, form handling, and database interactions.</li>
+                      <li>By building this web app, honed skills in Django-specific functionalities while simultaneously
+                        advancing proficiency in web development as a whole.</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-            </div>
-          </section>
+            </section>
+            <section id="skills" class="skill section-gap">
+              <div class="head">
+                <h1 class="-title --title-color-4">SKILLS</h1>
+              </div>
+              <div class="skills-svg"><img src="{% static 'app_home/birdgirl.svg' %}" alt="bird_above_girl_svg"></div>
+              <div class="--skills">
+                <h2>Front-End Development:</h2>
+                <ul>
+                  <li>HTML/CSS: Proficiency in creating structured and visually appealing web pages using HTML for
+                    content and CSS for styling.</li>
+                  <li>JavaScript: Strong understanding of JavaScript fundamentals for interactive and dynamic front-end
+                    development.</li>
+                  <li>Front-End Frameworks: Experience with front-end libraries and frameworks like React, Angular, or
+                    Vue.js for building complex user interfaces.</li>
+                  <li>Responsive Design: Knowledge of responsive web design principles to ensure websites function well
+                    across various devices and screen sizes.</li>
+                  <li>UI/UX Design: Understanding of user interface and user experience design principles to create
+                    intuitive and user-friendly interfaces.</li>
+                  <li>Version Control/Git: Proficiency in using Git for version control, collaborating with teams, and
+                    managing code repositories.</li>
+                  <li>Browser Developer Tools: Skill in using browser developer tools to debug and optimize front-end
+                    code.</li>
+                </ul>
+
+                <h2>Back-End Development:</h2>
+                <ul>
+                  <li>Python: Strong programming skills in Python, which serves as the primary language for back-end
+                    development.</li>
+                  <li>Web Frameworks: Proficiency in back-end frameworks like Django or Flask to build robust and
+                    scalable web applications.</li>
+                  <li>Database Management: Knowledge of working with databases, including relational databases (e.g.,
+                    PostgreSQL, MySQL) and NoSQL databases (e.g., MongoDB).</li>
+                  <li>APIs: Experience in designing and implementing RESTful APIs for communication between front-end
+                    and back-end systems.</li>
+                  <li>Server Management: Understanding of server deployment, configuration, and management using tools
+                    like Nginx, Apache, or cloud services (AWS, Azure, etc.).</li>
+                  <li>Authentication and Security: Skill in implementing user authentication and authorization systems,
+                    as well as maintaining security best practices.</li>
+                  <li>Server-Side Languages: Familiarity with server-side scripting languages like Node.js, PHP, or Ruby
+                    on Rails is a plus.</li>
+                </ul>
+
+                <h2>DevOps and Deployment:</h2>
+                <ul>
+                  <li>Deployment Tools: Proficiency in deploying web applications using tools like Docker, Kubernetes,
+                    or Heroku.</li>
+                  <li>Continuous Integration/Continuous Deployment (CI/CD): Understanding of CI/CD pipelines to automate
+                    code integration, testing, and deployment.</li>
+                  <li>Infrastructure as Code (IaC): Knowledge of creating and managing infrastructure using tools like
+                    Terraform or CloudFormation.</li>
+                </ul>
+
+                <h2>General Skills:</h2>
+                <ul>
+                  <li>Problem-Solving: Strong analytical and problem-solving skills to tackle complex technical
+                    challenges.</li>
+                  <li>Version Control/Git: Proficiency in using Git for version control, collaborating with teams, and
+                    managing code repositories.</li>
+                  <li>Agile Methodologies: Familiarity with Agile and Scrum methodologies for efficient project
+                    management and collaboration.</li>
+                  <li>Communication: Effective communication skills to collaborate with team members, stakeholders, and
+                    clients.</li>
+                  <li>Testing: Experience with automated testing, unit testing, and test-driven development (TDD)
+                    practices.</li>
+                  <li>Debugging: Skill in identifying and resolving bugs, issues, and performance bottlenecks.</li>
+                </ul>
+              </div>
+            </section>
+            <section id="achiv" class="attainment section-gap">
+              <div class="head">
+                <h1 class="about -title --title-color-5">Attainment</h1>
+              </div>
+              <div class=" --grid-5">
+                <div class="--year">2022</div>
+                <div class="--detail"><span>Science Exhibition Award 2022 by Vigyan Prasar, Govt. of India
+                    <a href="https://drive.google.com/file/d/1uBpvnaUtOWB6Esvw_YwG2y-XJtKJA0t3/view?usp=sharing"
+                      target="_blank">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                        <path
+                          d="M137.54,186.36a8,8,0,0,1,0,11.31l-9.94,10A56,56,0,0,1,48.38,128.4L72.5,104.28A56,56,0,0,1,149.31,102a8,8,0,1,1-10.64,12,40,40,0,0,0-54.85,1.63L59.7,139.72a40,40,0,0,0,56.58,56.58l9.94-9.94A8,8,0,0,1,137.54,186.36Zm70.08-138a56.08,56.08,0,0,0-79.22,0l-9.94,9.95a8,8,0,0,0,11.32,11.31l9.94-9.94a40,40,0,0,1,56.58,56.58L172.18,140.4A40,40,0,0,1,117.33,142,8,8,0,1,0,106.69,154a56,56,0,0,0,76.81-2.26l24.12-24.12A56.08,56.08,0,0,0,207.62,48.38Z">
+                        </path>
+                      </svg>
+                    </a>
+                  </span>
+                  <ul>
+                    <li>- For making ML based mechanical components segregator prototype.</li>
+                  </ul>
+                </div>
+
+                <div class="--year">2021</div>
+                <div class="--detail"><span>DRDO Contest 2021 Certificate
+                    <a href="https://drive.google.com/file/d/1Q94IfotQAzNJPcwt0UW5S5euImvoLYnk/view?usp=sharing"
+                      target="_blank">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                        <path
+                          d="M137.54,186.36a8,8,0,0,1,0,11.31l-9.94,10A56,56,0,0,1,48.38,128.4L72.5,104.28A56,56,0,0,1,149.31,102a8,8,0,1,1-10.64,12,40,40,0,0,0-54.85,1.63L59.7,139.72a40,40,0,0,0,56.58,56.58l9.94-9.94A8,8,0,0,1,137.54,186.36Zm70.08-138a56.08,56.08,0,0,0-79.22,0l-9.94,9.95a8,8,0,0,0,11.32,11.31l9.94-9.94a40,40,0,0,1,56.58,56.58L172.18,140.4A40,40,0,0,1,117.33,142,8,8,0,1,0,106.69,154a56,56,0,0,0,76.81-2.26l24.12-24.12A56.08,56.08,0,0,0,207.62,48.38Z">
+                        </path>
+                      </svg>
+                    </a>
+                  </span>
+                  <ul>
+                    <li>- Got 3<sup>rd</sup> position in Short Animation Film Design and Digital Wallpaper Design.</li>
+                  </ul>
+                </div>
+                <div class="--year">2018</div>
+                <div class="--detail"><span>Certificate of merit 1<sup>st</sup> year of B.Tech
+                    <a href="https://drive.google.com/file/d/1O7T24q6gSP9oZ__sFi-dbBrBGrImnnVo/view?usp=sharing"
+                      target="_blank">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                        <path
+                          d="M137.54,186.36a8,8,0,0,1,0,11.31l-9.94,10A56,56,0,0,1,48.38,128.4L72.5,104.28A56,56,0,0,1,149.31,102a8,8,0,1,1-10.64,12,40,40,0,0,0-54.85,1.63L59.7,139.72a40,40,0,0,0,56.58,56.58l9.94-9.94A8,8,0,0,1,137.54,186.36Zm70.08-138a56.08,56.08,0,0,0-79.22,0l-9.94,9.95a8,8,0,0,0,11.32,11.31l9.94-9.94a40,40,0,0,1,56.58,56.58L172.18,140.4A40,40,0,0,1,117.33,142,8,8,0,1,0,106.69,154a56,56,0,0,0,76.81-2.26l24.12-24.12A56.08,56.08,0,0,0,207.62,48.38Z">
+                        </path>
+                      </svg>
+                    </a>
+                  </span></div>
+
+
+
+              </div>
+            </section>
+            <div class="page-end"><img src="{% static 'app_home/sunset.svg' %}" alt="sunset_svg"></div>
+          </div>
 
           <div class="rotate-90 music-position"><button class="music-btn --fade-effect">Play me</button></div>
         </div>
