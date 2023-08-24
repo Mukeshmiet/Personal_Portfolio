@@ -93,7 +93,8 @@ $(function () {
 });
 
 // music
-
+console.log(domain);
+console.log(a);
 const musicAudio = new Audio(a);
 const pause = document.querySelector(".music-btn");
 
