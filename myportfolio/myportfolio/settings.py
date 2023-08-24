@@ -182,5 +182,8 @@ WHITENOISE_KEEP_ONLY_HASHED_FILES = True
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+config = locals()
+config['STORAGES']['staticfiles'] = config['STATICFILES_STORAGE']
+del config['STATICFILES_STORAGE']
 
 django_heroku.settings(locals())
