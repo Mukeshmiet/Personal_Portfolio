@@ -161,8 +161,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = 'static/'
 STATIC_ROOT = path.join(BASE_DIR, "staticfiles")   
+STATIC_URL = 'static/'
 # STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 STORAGES = {
@@ -182,8 +182,4 @@ WHITENOISE_KEEP_ONLY_HASHED_FILES = True
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-config = locals()
-config['STORAGES']['staticfiles'] = config['STATICFILES_STORAGE']
-del config['STATICFILES_STORAGE']
-
-django_heroku.settings(locals())
+# django_heroku.settings(locals())
