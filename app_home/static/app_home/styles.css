@@ -134,6 +134,10 @@ div {
   overflow: hidden;
 }
 
+img{
+  z-index: -1;
+}
+
 /* scroll bar */
 
 ::-webkit-scrollbar {
@@ -252,6 +256,7 @@ div {
 
 .left {
   box-shadow: 0.5rem 0.5rem 0rem rgba(15, 15, 15, 0.1);
+  border: rgba(212, 136, 225, 0.3) 0.1rem solid;
   background-color: var(--color-left-nohover);
   border-radius: 1rem;
   margin: 0;
@@ -287,8 +292,8 @@ div {
 }
 
 .pict {
-  height: 30%;
-  width: 48%;
+  height: 35%;
+  width: 54%;
   border-radius: 999rem !important;
   overflow: hidden;
 }
@@ -304,13 +309,25 @@ div {
   position: absolute;
   top: 2rem;
   right: 3rem;
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   text-align: center;
+  justify-content: center;
+  align-content: center;
   color: var(--font-color-light-desi);
   height: 4rem;
   width: 10rem;
   border-radius: 1rem;
-  box-shadow: 0.5rem 0.5rem 2rem rgba(177, 110, 170, 0.2);
+  border: #d488e1 0.1rem solid;
+  box-shadow: 0.5rem 0.5rem 0rem rgba(177, 110, 170, 0);
+}
+
+.resume svg{
+  fill: var(--font-color-light-desi);
+  height: var(--font-size-14);
+  padding-top: 1rem;
+
 }
 
 .resume:hover{
@@ -393,14 +410,14 @@ div {
 .-shadow--2 {
   margin-top: 3rem;
   padding: 1rem;
-  /* box-shadow: 0.5rem 0.5rem 2rem rgba(153, 0, 135, 0.5); */
-  box-shadow: 0rem 0rem 0.8rem rgba(191, 120, 183, 0.2);
+  /* box-shadow: 0rem 0rem 0.8rem rgba(191, 120, 183, 0.2); */
 }
 
 .-shadow--1 {
   margin-top: 1rem;
   padding: 1.5rem;
-  box-shadow: 0.5rem 1rem 0rem rgba(177, 110, 170, 0.2);
+  border: #d488e1 0.1rem solid;
+  box-shadow: 1rem 1rem 0rem rgba(177, 110, 170, 0.2);
   border-radius: 1rem;
 }
 
@@ -580,6 +597,7 @@ div {
   align-content: center;
   text-align: center;
   width: 60%;
+  padding: 0 4rem;
 }
 
 .home-about {
@@ -620,6 +638,7 @@ div {
   margin-top: 15rem;
   padding: 15rem 2rem;
   z-index: 2;
+  width: 100%;
 }
 
 .--grid-5 {
@@ -698,6 +717,7 @@ div {
   position: relative;
   padding: 15rem 2rem;
   z-index: 2;
+  width: 100%;
 }
 
 .--cards {
@@ -705,7 +725,7 @@ div {
   grid-template-columns: 1fr 1fr;
   column-gap: 6rem;
   row-gap: 8rem;
-  margin: 0 6rem;
+  margin: 0;
 }
 
 .--font-1 {
@@ -847,6 +867,38 @@ div {
   width: 100%;
   opacity: 1;
 }
+
+/* skills */
+
+.-title-3{
+  font-size: var(--font-size-08);
+  font-family: var(--font-family-5);
+  color: mediumseagreen;
+  display: flex;
+  align-items: start;
+  padding: 2rem 0rem 5rem 0;
+}
+
+.--skills li strong{
+  font-weight: var(--font-weight-6);
+}
+
+.--skills{
+  padding: 0 6rem;
+}
+
+.--card-content-2 {
+  list-style: disc;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  padding-left: 6rem;
+  margin-bottom: 5rem;
+  gap: 1rem;
+  font-family: var(--font-family-2);
+  font-size: var(--font-size-06);
+}
+
 
 /* adding music */
 
