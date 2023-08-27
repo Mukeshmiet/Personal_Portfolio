@@ -5,6 +5,8 @@ const darkModeMediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
 const ToggleButEl = document.querySelector(".toggle-button--component");
 const RotEl = document.querySelector(".toggle-button--wheel");
 const seagirlEl = document.querySelector(".skills-svg img"); 
+const toggleMenuEl = document.querySelector(".toggle-menu");
+const menuEl = document.querySelector(".menu");
 
 function darkMode(){
   RotEl.style.transform = "rotate(180deg)";
@@ -367,6 +369,17 @@ function handleDarkModeChange(event) {
     lightMode()
   }
 }
+
+// menu toggle
+
+toggleMenuEl.addEventListener("click", () => {
+  if (menuEl.style.display == "none") {
+    menuEl.style.display = "inline-block";
+  } else {
+    menuEl.style.display = "none";
+  }
+});
+
 
 // const RotEl = document.querySelector(".toggle-button--component");
 

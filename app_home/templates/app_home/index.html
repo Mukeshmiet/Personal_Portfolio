@@ -107,15 +107,17 @@
       <div class="-container">
         <div class="right">
 
-          <div class="menu">
+          <div class="menu">  
             <div class="menu-list --flex-2 ">
-              <div class="--effects color-1"><a aria-label="A link in this page"href="#home">&bull; Home</a></div>
-              <div class="--effects color-2"><a aria-label="A link in this page"href="#timeline">&bull; Timeline</a></div>
-              <div class="--effects color-3"><a aria-label="A link in this page"href="#projects">&bull; Projects</a></div>
-              <div class="--effects color-4"><a aria-label="A link in this page"href="#skills">&bull; Skills</a></div>
-              <div class="--effects color-5"><a aria-label="A link in this page"href="#achiv">&bull; Attainment</a></div>
+              <div class="--effects color-1"><a aria-label="A link in this page"href="#home"> About</a></div>
+              <div class="--effects color-2"><a aria-label="A link in this page"href="#timeline"> Timeline</a></div>
+              <div class="--effects color-3"><a aria-label="A link in this page"href="#projects"> Projects</a></div>
+              <div class="--effects color-4"><a aria-label="A link in this page"href="#skills"> Skills</a></div>
+              <div class="--effects color-5"><a aria-label="A link in this page"href="#achiv"> Attainment</a></div>
             </div>
           </div>
+
+          <button class="toggle-menu" name="menu">Menu</button>
 
           <button class="toggle-button--component lasy_in" aria-label="toggle-theme">
             <div class="toggle-button--wheel">
@@ -129,6 +131,9 @@
           <div class="-hidden-1"></div>
           <div id="home" class="right-content-animate --position --content-layout">
             <section class="home-about">
+                <div class="content-svg">
+                  <img src="{% static 'app_home/dogboy.svg' %}" alt="relaxing_svg">
+                </div>
                 <div class="head">
                   <h1 class="about -title --title-color-1">About Me</h1>
                 </div>
@@ -142,9 +147,7 @@
                   </p>
                 </div>
             </section>
-            <div class="content-svg">
-                <img src="{% static 'app_home/dogboy.svg' %}" alt="relaxing_svg">
-            </div>
+            
             <section id="timeline" class="--padding-top">
               <img class="seagulls" src="{% static 'app_home/seagulls.svg' %}" alt="seagulls_svg">
               <div class="head">
